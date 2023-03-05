@@ -1,0 +1,129 @@
+body{
+background-color: rgba(217, 217, 217);
+}
+.hero{
+background: linear-gradient(#c7e088bb, #383535b1), url(/Imagens/img-banner.png); no-repeat; center bottom;
+min-height: 100vh;
+background-size:cover ;
+background-position: center;
+background-attachment: fixed;
+padding-bottom: 100px;
+}
+.hero h1 {
+    color:#B4E236;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+.hero p {
+    color:aliceblue;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 2px black;
+    
+}
+.promessa {
+    background: url(../Imagens/img-promessa.png); no-repeat; center bottom;
+    opacity: 0.8;
+    min-height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    }
+.promessa p {text-align: right;text-shadow: 2px 2px 2px black;}
+.promessa h1 {text-shadow: 2px 2px 2px black;color:#B4E236; right;padding-bottom: 20px; padding-top: 20px;}
+.promessa blockquote {text-shadow: 2px 2px 2px black;text-align: right;padding-bottom: 20px;}
+
+.produto{
+    background: url(../Imagens/img\ -\ produto.png) no-repeat center bottom;
+    min-height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    }
+.produto p {text-align: left;}
+.produto h1 {text-align: left;padding-bottom: 20px;    padding-top: 20px;}
+
+.beneficios{
+    background:linear-gradient(to bottom, #211F1F, #000, #211F1F); no-repeat; center bottom;
+    min-height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    color:#fff;
+    }
+.diretia {
+        text-align: right;
+    }
+       
+.beneficios blockquote {font-size:40px; text-align: center;padding-top:20px; padding-bottom: 20px;}
+.beneficios h1 {color: #B4E236;    padding-top: 20px;}
+
+.cta{
+    background: url(../Imagens/img-cta.png); no-repeat; center bottom;
+    opacity: 0.8;
+    min-height: 100vh;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    }
+.depoimentos {
+    background-color: #4D5238;
+    padding-bottom: 100px;
+}
+.depoimentos h1{
+color: #D9D9D9; font-style: italic;margin-top: 50px; text-align: left;    padding-top: 20px;;
+
+}
+.depoimentos .card {
+        border-radius: 20px;
+        margin-top: 30px;
+        text-align: left;
+        border-color:#211F1F;
+    }
+    .FAQ-Box {
+        border-radius: 20px;
+        width: 70%;
+        background: linear-gradient( rgba(104, 119,40), rgba(77, 82,56), rgba(104, 119,40) );
+       padding: 30px;
+       box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .Faq {    background-color: #4D5238;
+        padding-bottom: 100px;}
+        .Faq h1 {
+            padding-top: 20px; color: #D9D9D9; font-style: italic;margin-top: 50px;margin-bottom: 50px; text-align: left;
+        }
+
+        .Faq .card {
+            border-radius: 20px;
+            margin-top: 30px;
+            text-align: left;
+            color: #000;
+        }
+        .Faq .card h5 {color: #000;}
+        .form {
+
+            background-color: #4D5238;
+        }
+        .form h3 {
+            color:#fff;    padding-top: 20px;
+        }
+        .form .typeform {
+            width: 70%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .marca{
+         height: 300px;
+         background-color: #000;
+        }
+        .marca h1 {color:#D9D9D9     padding-top: 20px;}
+
+        .footer{
+            height: 50px;
+            background-color: #2B2B39;
+           }
+        .footer a {color:#D9D9D9}
